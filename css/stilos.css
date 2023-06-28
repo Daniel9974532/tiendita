@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+span{
+    color: #d19321;
+}
+
+nav{
+    background-color: #5c5656;
+    float: left;
+    width: 100%;
+}
+
+.msgcontador{
+    float: right;
+    color: #f4f4f4;
+    margin: 0 12px 0 0;
+}
+
+nav ul img{
+    width: 40px;
+    height: 40px;
+}
+
+nav ul li{
+     margin: 20px;
+     float: left;
+    list-style: none;
+}
+nav h1{
+    float: left;
+    color: aliceblue;
+    margin: 20px;
+    
+}
+nav ul{
+    float: right;
+}
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: #d19321;
+}
+
+.wrapper{
+    text-align: center;
+    margin: auto;
+    width: 90vw;
+    min-height: 100vh;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+}
+img {
+    margin: 10px;
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.informacion{
+    color: #f4f4f4;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+input {
+ 
+    background-color: #d19321;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+input:hover{
+    background-color: #796032;
+}
+.contenedor{
+    margin: 40px 0 0 0  ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #2779d8;
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: #103977;
+}
+
+
+
+.clear{
+    clear: both;
+}
